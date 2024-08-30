@@ -1,29 +1,50 @@
-:root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
-
+:root {
+    --cor-fundo: #001f3f; /* Azul escuro */
+    --cor-principal: #003366; /* Azul marinho */
+    --cor-secundaria: #004080; /* Azul escuro, um pouco mais claro que o principal */
+    --cor-destaque: #00bfff; /* Azul celeste brilhante */
+    --cor-texto: #e6f7ff; /* Azul claro, quase branco */
 }
 
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+    font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
 }
 
-.caixa-principal{
+.caixa-principal {
     background-color: var(--cor-principal);
     width: 90%;
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-h1{
+h1 {
     color: var(--cor-destaque);
+    margin-bottom: 20px;
 }
+
+.caixa-perguntas {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.caixa-alternativas {
+    margin-top: 20px;
+}
+
+.caixa-alternativas button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin

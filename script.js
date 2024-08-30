@@ -107,7 +107,7 @@ function respostaSelecionada(opcaoSelecionada) {
 function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
+    caixaAlternativas.textContent = "Em 2049, a água não é apenas um recurso; é o reflexo de nossa capacidade coletiva de moldar um futuro sustentável e próspero para todos.";
 }
 
 mostraPergunta();
